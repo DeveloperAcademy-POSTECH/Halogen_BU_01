@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3462843283E452300EB121D /* BeyondUI_HalogenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3462842283E452300EB121D /* BeyondUI_HalogenApp.swift */; };
+		A3462845283E452300EB121D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3462844283E452300EB121D /* ContentView.swift */; };
+		A3462847283E452500EB121D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3462846283E452500EB121D /* Assets.xcassets */; };
+		A346284A283E452500EB121D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3462849283E452500EB121D /* Preview Assets.xcassets */; };
+		A3462854283E452600EB121D /* BeyondUI_HalogenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3462853283E452600EB121D /* BeyondUI_HalogenTests.swift */; };
+		A346285E283E452600EB121D /* BeyondUI_HalogenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346285D283E452600EB121D /* BeyondUI_HalogenUITests.swift */; };
+		A3462860283E452600EB121D /* BeyondUI_HalogenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346285F283E452600EB121D /* BeyondUI_HalogenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3462850283E452600EB121D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3462837283E452300EB121D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A346283E283E452300EB121D;
+			remoteInfo = "BeyondUI-Halogen";
+		};
+		A346285A283E452600EB121D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3462837283E452300EB121D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A346283E283E452300EB121D;
+			remoteInfo = "BeyondUI-Halogen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A346283F283E452300EB121D /* BeyondUI-Halogen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeyondUI-Halogen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3462842283E452300EB121D /* BeyondUI_HalogenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondUI_HalogenApp.swift; sourceTree = "<group>"; };
+		A3462844283E452300EB121D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3462846283E452500EB121D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3462849283E452500EB121D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A346284F283E452600EB121D /* BeyondUI-HalogenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeyondUI-HalogenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3462853283E452600EB121D /* BeyondUI_HalogenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondUI_HalogenTests.swift; sourceTree = "<group>"; };
+		A3462859283E452600EB121D /* BeyondUI-HalogenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeyondUI-HalogenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A346285D283E452600EB121D /* BeyondUI_HalogenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondUI_HalogenUITests.swift; sourceTree = "<group>"; };
+		A346285F283E452600EB121D /* BeyondUI_HalogenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondUI_HalogenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A346283C283E452300EB121D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A346284C283E452600EB121D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3462856283E452600EB121D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3462836283E452300EB121D = {
+			isa = PBXGroup;
+			children = (
+				A3462841283E452300EB121D /* BeyondUI-Halogen */,
+				A3462852283E452600EB121D /* BeyondUI-HalogenTests */,
+				A346285C283E452600EB121D /* BeyondUI-HalogenUITests */,
+				A3462840283E452300EB121D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3462840283E452300EB121D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A346283F283E452300EB121D /* BeyondUI-Halogen.app */,
+				A346284F283E452600EB121D /* BeyondUI-HalogenTests.xctest */,
+				A3462859283E452600EB121D /* BeyondUI-HalogenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3462841283E452300EB121D /* BeyondUI-Halogen */ = {
+			isa = PBXGroup;
+			children = (
+				A3462842283E452300EB121D /* BeyondUI_HalogenApp.swift */,
+				A3462844283E452300EB121D /* ContentView.swift */,
+				A3462846283E452500EB121D /* Assets.xcassets */,
+				A3462848283E452500EB121D /* Preview Content */,
+			);
+			path = "BeyondUI-Halogen";
+			sourceTree = "<group>";
+		};
+		A3462848283E452500EB121D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3462849283E452500EB121D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3462852283E452600EB121D /* BeyondUI-HalogenTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3462853283E452600EB121D /* BeyondUI_HalogenTests.swift */,
+			);
+			path = "BeyondUI-HalogenTests";
+			sourceTree = "<group>";
+		};
+		A346285C283E452600EB121D /* BeyondUI-HalogenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A346285D283E452600EB121D /* BeyondUI_HalogenUITests.swift */,
+				A346285F283E452600EB121D /* BeyondUI_HalogenUITestsLaunchTests.swift */,
+			);
+			path = "BeyondUI-HalogenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A346283E283E452300EB121D /* BeyondUI-Halogen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3462863283E452600EB121D /* Build configuration list for PBXNativeTarget "BeyondUI-Halogen" */;
+			buildPhases = (
+				A346283B283E452300EB121D /* Sources */,
+				A346283C283E452300EB121D /* Frameworks */,
+				A346283D283E452300EB121D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeyondUI-Halogen";
+			productName = "BeyondUI-Halogen";
+			productReference = A346283F283E452300EB121D /* BeyondUI-Halogen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A346284E283E452600EB121D /* BeyondUI-HalogenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3462866283E452600EB121D /* Build configuration list for PBXNativeTarget "BeyondUI-HalogenTests" */;
+			buildPhases = (
+				A346284B283E452600EB121D /* Sources */,
+				A346284C283E452600EB121D /* Frameworks */,
+				A346284D283E452600EB121D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3462851283E452600EB121D /* PBXTargetDependency */,
+			);
+			name = "BeyondUI-HalogenTests";
+			productName = "BeyondUI-HalogenTests";
+			productReference = A346284F283E452600EB121D /* BeyondUI-HalogenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3462858283E452600EB121D /* BeyondUI-HalogenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3462869283E452600EB121D /* Build configuration list for PBXNativeTarget "BeyondUI-HalogenUITests" */;
+			buildPhases = (
+				A3462855283E452600EB121D /* Sources */,
+				A3462856283E452600EB121D /* Frameworks */,
+				A3462857283E452600EB121D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A346285B283E452600EB121D /* PBXTargetDependency */,
+			);
+			name = "BeyondUI-HalogenUITests";
+			productName = "BeyondUI-HalogenUITests";
+			productReference = A3462859283E452600EB121D /* BeyondUI-HalogenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3462837283E452300EB121D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A346283E283E452300EB121D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					A346284E283E452600EB121D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A346283E283E452300EB121D;
+					};
+					A3462858283E452600EB121D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A346283E283E452300EB121D;
+					};
+				};
+			};
+			buildConfigurationList = A346283A283E452300EB121D /* Build configuration list for PBXProject "BeyondUI-Halogen" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3462836283E452300EB121D;
+			productRefGroup = A3462840283E452300EB121D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A346283E283E452300EB121D /* BeyondUI-Halogen */,
+				A346284E283E452600EB121D /* BeyondUI-HalogenTests */,
+				A3462858283E452600EB121D /* BeyondUI-HalogenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A346283D283E452300EB121D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A346284A283E452500EB121D /* Preview Assets.xcassets in Resources */,
+				A3462847283E452500EB121D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A346284D283E452600EB121D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3462857283E452600EB121D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A346283B283E452300EB121D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3462845283E452300EB121D /* ContentView.swift in Sources */,
+				A3462843283E452300EB121D /* BeyondUI_HalogenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A346284B283E452600EB121D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3462854283E452600EB121D /* BeyondUI_HalogenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3462855283E452600EB121D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3462860283E452600EB121D /* BeyondUI_HalogenUITestsLaunchTests.swift in Sources */,
+				A346285E283E452600EB121D /* BeyondUI_HalogenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3462851283E452600EB121D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A346283E283E452300EB121D /* BeyondUI-Halogen */;
+			targetProxy = A3462850283E452600EB121D /* PBXContainerItemProxy */;
+		};
+		A346285B283E452600EB121D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A346283E283E452300EB121D /* BeyondUI-Halogen */;
+			targetProxy = A346285A283E452600EB121D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3462861283E452600EB121D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3462862283E452600EB121D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3462864283E452600EB121D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeyondUI-Halogen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halogen.BeyondUI-Halogen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3462865283E452600EB121D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeyondUI-Halogen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halogen.BeyondUI-Halogen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3462867283E452600EB121D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halogen.BeyondUI-HalogenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeyondUI-Halogen.app/BeyondUI-Halogen";
+			};
+			name = Debug;
+		};
+		A3462868283E452600EB121D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halogen.BeyondUI-HalogenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeyondUI-Halogen.app/BeyondUI-Halogen";
+			};
+			name = Release;
+		};
+		A346286A283E452600EB121D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halogen.BeyondUI-HalogenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BeyondUI-Halogen";
+			};
+			name = Debug;
+		};
+		A346286B283E452600EB121D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.halogen.BeyondUI-HalogenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BeyondUI-Halogen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A346283A283E452300EB121D /* Build configuration list for PBXProject "BeyondUI-Halogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3462861283E452600EB121D /* Debug */,
+				A3462862283E452600EB121D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3462863283E452600EB121D /* Build configuration list for PBXNativeTarget "BeyondUI-Halogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3462864283E452600EB121D /* Debug */,
+				A3462865283E452600EB121D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3462866283E452600EB121D /* Build configuration list for PBXNativeTarget "BeyondUI-HalogenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3462867283E452600EB121D /* Debug */,
+				A3462868283E452600EB121D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3462869283E452600EB121D /* Build configuration list for PBXNativeTarget "BeyondUI-HalogenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A346286A283E452600EB121D /* Debug */,
+				A346286B283E452600EB121D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3462837283E452300EB121D /* Project object */;
+}
