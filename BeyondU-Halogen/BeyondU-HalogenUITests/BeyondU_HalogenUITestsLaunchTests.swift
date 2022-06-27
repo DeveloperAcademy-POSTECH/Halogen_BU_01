@@ -1,13 +1,13 @@
 //
-//  BeyondUI_HalogenUITestsLaunchTests.swift
-//  BeyondUI-HalogenUITests
+//  BeyondU_HalogenUITestsLaunchTests.swift
+//  BeyondU-HalogenUITests
 //
-//  Created by 한경준 on 2022/05/25.
+//  Created by 한경준 on 2022/05/29.
 //
 
 import XCTest
 
-class BeyondUI_HalogenUITestsLaunchTests: XCTestCase {
+class BeyondU_HalogenUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

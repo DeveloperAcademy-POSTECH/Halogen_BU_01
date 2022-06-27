@@ -1,14 +1,14 @@
 //
-//  BeyondUI_HalogenTests.swift
-//  BeyondUI-HalogenTests
+//  BeyondU_HalogenTests.swift
+//  BeyondU-HalogenTests
 //
-//  Created by 한경준 on 2022/05/25.
+//  Created by 한경준 on 2022/05/29.
 //
 
 import XCTest
-@testable import BeyondUI_Halogen
+@testable import BeyondU_Halogen
 
-class BeyondUI_HalogenTests: XCTestCase {
+class BeyondU_HalogenTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
